@@ -1,0 +1,57 @@
+:root {
+  --blue: #2196f3;
+  --grey: #757575;
+  --blue-button: #188ce8;
+  --primery-text-color: #212121;
+  --white-color: #ffffff;
+  --dark-grey: #2f303a;
+  --bg-ylight-gra: #f5f4fa;
+  --border-light-gra: #ececec;
+  --grayish-blue: #afb1b8;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primery-text-color);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.colortext {
+  color: var(--blue);
+}
+
+.visuall-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/*# sourceMappingURL=main.css.map */
