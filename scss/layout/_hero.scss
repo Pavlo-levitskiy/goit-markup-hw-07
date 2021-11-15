@@ -1,14 +1,8 @@
 .hero {
   text-align: center;
-}
-
-.hero-color {
   max-width: 1600px;
-  min-height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 200px;
-  padding-top: 200px;
+  margin: 0 auto;
+  padding: 200px 0;
   background-color: var(--dark-grey);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -20,17 +14,15 @@
   background-position: center;
 }
 
-.hero-title {
+.hero__title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
   margin-bottom: 30px;
-}
-
-.hero-right {
-  min-width: 696px;
-  height: 120px;
 }

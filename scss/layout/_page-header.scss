@@ -31,10 +31,9 @@
 
 .site-nav {
   display: flex;
-}
-
-.site-nav .site-link {
-  color: var(--blue);
+  & .site-link {
+    color: var(--blue);
+  }
 }
 
 .header-link {

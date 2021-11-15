@@ -11,11 +11,11 @@
   display: flex;
 }
 
-.list-text:not(:last-child) {
+.section-text__list-text:not(:last-child) {
   margin-right: 30px;
 }
 
-.card-link {
+.section-text__card-link {
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -26,7 +26,7 @@
   margin-bottom: 30px;
 }
 
-.section-subtitle {
+.section-text__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em;
@@ -36,7 +36,7 @@
   margin-bottom: 10px;
 }
 
-.desc {
+.section-text__desc {
   color: var(--grey);
   font-size: 14px;
   line-height: 1.71em;

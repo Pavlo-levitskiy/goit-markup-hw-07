@@ -8,7 +8,7 @@
   padding-top: 0;
 }
 
-.item-photo {
+.section-photo__item-photo {
   display: flex;
   flex-basis: auto;
   justify-content: space-between;
@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.text-photo {
+.card__text-photo {
   content: "";
   position: absolute;
   width: 100%;
