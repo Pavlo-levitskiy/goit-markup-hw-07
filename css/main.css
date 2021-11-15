@@ -62,7 +62,7 @@ body {
   margin: 0 auto;
 }
 
-.button__btn {
+.button-btn {
   background-color: var(--blue);
   color: var(--white-color);
   border: none;
@@ -76,7 +76,7 @@ body {
   border-radius: 4px;
 }
 
-.button__btn:hover, .button__btn:focus {
+.button-btn:hover, .button-btn:focus {
   background-color: var(--blue-button);
 }
 
