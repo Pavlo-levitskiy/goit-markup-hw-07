@@ -120,3 +120,20 @@
   top: 13px;
   left: 160px;
 }
+.contacts {
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1em;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--blue);
+  }
+}
+.colortext {
+  color: var(--blue);
+}
